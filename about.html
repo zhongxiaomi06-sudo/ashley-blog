@@ -4,12 +4,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>关于我 — 钟笑咪</title>
+<meta name="description" content="00 后大学生 builder，用 AI 多智能体工作流把想法推到可访问部署。">
 <link rel="stylesheet" href="/style.css">
 </head>
 <body>
 <nav>
   <div class="nav-inner">
-    <a class="brand" href="/">钟笑咪</a>
+    <a class="brand" href="/">钟笑咪<span> / Ashley</span></a>
     <div class="links">
       <a href="/" class="">首页</a>
       <a href="/posts.html" class="">日志</a>
@@ -19,15 +20,23 @@
 </nav>
 
 <header class="hero">
-  <h1>关于我</h1>
-  <p class="tagline">大一学生 / AI 产品开发者 · 北京</p>
+  <div class="hero-eyebrow">关于</div>
+  <h1>钟笑咪（Ashley）</h1>
+  <p class="lead">大一学生 / AI 产品开发者 · 北京</p>
 </header>
 <section class="reading">
   <article>
-    <h2>钟笑咪（Ashley）</h2>
     <p>持续成长，用 AI 放大能力，做一个能管团队的 builder</p>
 
-    <h2>当前专注</h2>
+    <h2 id="now">当前状态</h2>
+    
+  <div class="now-bar">
+    <span class="label">Now</span>
+    <span class="value">暑假实习准备中 · 北京 · TTC 猎头系统合作 · 妙喵私教迭代 · 美加墨世界杯资产生产</span>
+  </div>
+
+
+    <h2 id="focus">当前专注</h2>
     <ul>
       <li>ttc 猎头系统合作</li>
       <li>量化实习冲刺</li>
@@ -36,56 +45,86 @@
       <li>创业预备</li>
     </ul>
 
-    <h2>技能</h2>
-    <p><strong>languages</strong>：Python、JavaScript、HTML/CSS</p>
-    <p><strong>frameworks</strong>：FastAPI、Node.js、VitePress</p>
-    <p><strong>ai</strong>：DeepSeek、Agent 管道、RAG、向量检索、提示词工程</p>
-    <p><strong>cloud</strong>：阿里云 Tablestore、GitHub Pages、飞书 API</p>
+    <h2 id="skills">技能</h2>
+    <p><strong>语言</strong>：Python、JavaScript、HTML/CSS</p>
+    <p><strong>框架</strong>：FastAPI、Node.js、VitePress</p>
+    <p><strong>AI / LLM</strong>：DeepSeek、Agent 管道、RAG、向量检索、提示词工程</p>
+    <p><strong>云服务 / 工具</strong>：阿里云 Tablestore、GitHub Pages、飞书 API</p>
 
-    <h2>项目</h2>
+    <h2 id="projects">项目</h2>
     <div class="portfolio-grid">
       
       <div class="project-card">
+        <div class="status">已上线</div>
         <h4>AI 记忆中枢</h4>
         <p>阿里云 Tablestore + Ollama 向量嵌入 + MCP Server</p>
-        <div class="meta">Architect + Developer · 已上线</div>
+        <div class="meta">Architect + Developer</div>
       </div>
       <div class="project-card">
+        <div class="status">v7 开发中</div>
         <h4>猎头简历智能解析系统</h4>
         <p>FastAPI + Agent Pipeline + 飞书 + 向量数据库</p>
-        <div class="meta">Architect + Developer · v7 开发中</div>
+        <div class="meta">Architect + Developer</div>
       </div>
       <div class="project-card">
+        <div class="status">已部署</div>
         <h4>献书游戏</h4>
         <p>HTML5 + Node.js + MiniMax AI</p>
-        <div class="meta">Creator + Developer · 已部署</div>
+        <div class="meta">Creator + Developer</div>
       </div>
       <div class="project-card">
+        <div class="status">剧本完成</div>
         <h4>宋知秋</h4>
         <p>五幕剧本 + 动画分镜 + 生命档案</p>
-        <div class="meta">Author · 剧本完成</div>
+        <div class="meta">Author</div>
       </div>
       <div class="project-card">
+        <div class="status">已部署</div>
         <h4>钟笑咪的博客</h4>
         <p>Node.js 静态构建 + GitHub Pages</p>
-        <div class="meta">Owner · 已部署</div>
+        <div class="meta">Owner</div>
       </div>
     </div>
 
-    <h2>联系</h2>
+    <h2 id="creative">创作</h2>
+    <div class="portfolio-grid">
+      
+      <div class="creative-card">
+        <div class="status">剧本完成</div>
+        <h4>宋知秋</h4>
+        <p>五幕剧本、双主角完整设定、动画分镜与生命档案。</p>
+        <div class="meta">作者 / 世界观设计</div>
+      </div>
+      <div class="creative-card">
+        <div class="status">已部署</div>
+        <h4>献书游戏</h4>
+        <p>东晋叙事卡牌游戏，9 轮 12 卡 3×3 结局矩阵。</p>
+        <div class="meta">创作者 / 开发者</div>
+      </div>
+      <div class="creative-card">
+        <div class="status">迭代中</div>
+        <h4>妙喵私教</h4>
+        <p>语音输入 + 宠物 TTS + Lottie 动画 + 互动彩蛋。</p>
+        <div class="meta">开发者 / 产品</div>
+      </div>
+    </div>
+
+    <h2 id="contact">联系</h2>
     <ul>
       <li>GitHub：<a href="https://github.com/zhongxiaomi06-sudo">@zhongxiaomi06-sudo</a></li>
       <li>邮箱：<a href="mailto:zhongxiaomi06@gmail.com">zhongxiaomi06@gmail.com</a></li>
     </ul>
 
-    <h2>AI 可读数据</h2>
+    <h2 id="data">AI 可读数据</h2>
     <p>AI 可以通过 <a href="/about.json">about.json</a> 获取结构化状态。</p>
   </article>
 </section>
 
 <footer>
-  <p>钟笑咪 · 大一学生 / AI 产品开发者 · 更新于 2026-07-19</p>
-  <p>GitHub: <a href="https://github.com/zhongxiaomi06-sudo">@zhongxiaomi06-sudo</a> · Email: <a href="mailto:zhongxiaomi06@gmail.com">zhongxiaomi06@gmail.com</a></p>
+  <div class="footer-inner">
+    <p>钟笑咪 · 大一学生 / AI 产品开发者 · 更新于 2026-07-20</p>
+    <p><a href="https://github.com/zhongxiaomi06-sudo" target="_blank" rel="noopener">GitHub</a> · <a href="mailto:zhongxiaomi06@gmail.com">zhongxiaomi06@gmail.com</a></p>
+  </div>
 </footer>
 </body>
 </html>
